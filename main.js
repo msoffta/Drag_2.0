@@ -31,9 +31,9 @@ document.querySelectorAll(".button").forEach((button) => {
     };
 });
 
-let backdrop = document.querySelector(".backdrop");
-let modal = document.querySelector(".modal");
-let add = document.querySelector(".add");
+export let backdrop = document.querySelector(".backdrop");
+export let modal = document.querySelector(".modal");
+export let add = document.querySelector(".add");
 
 add.onclick = () => {
     backdrop.classList.add("show");

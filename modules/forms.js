@@ -1,4 +1,4 @@
-import { empties } from "../main";
+import { backdrop, empties, modal } from "../main";
 import { getData, postData } from "./http";
 import { reload_tasks } from "./ui";
 
@@ -15,6 +15,9 @@ form.onsubmit = (e) => {
         task[key] = val
     })
 
+    backdrop.classList.remove('show')
+    modal.classList.remove('show')
+
     postData('/tasks', task)
         .then(res => {
             if(res.status === 200 || res.status === 201) {
@@ -22,4 +25,6 @@ form.onsubmit = (e) => {
                     .then(res => reload_tasks(res.data, empties))
             }
         })
+    
+    
 }

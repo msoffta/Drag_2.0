@@ -13,22 +13,16 @@
       "id": 3
     },
     {
-      "title": "dasdasd",
-      "description": "dfsjn",
-      "status": "2",
-      "id": 4
-    },
-    {
-      "title": "avaz",
-      "description": "DURAK",
-      "status": "1",
-      "id": 5
-    },
-    {
       "title": "Nefor",
       "description": "new",
       "status": "1",
       "id": 7
+    },
+    {
+      "title": "not nef0r",
+      "description": "nef0r",
+      "status": "1",
+      "id": 8
     }
   ],
   "members": []
