@@ -46,6 +46,9 @@ form {
     }
 }
 
+.todo__empty,
+.inprogress__empty,
+.done__empty,
 .empty {
     display: flex;
     flex-direction: column;
@@ -58,6 +61,25 @@ form {
     border-radius: 12px;
 
     transition: 0.5s ease;
+}
+
+
+
+.todo__empty,
+.inprogress__empty,
+.done__empty {
+
+    & > span {
+
+        margin-top: 20px;
+
+        color: #fff;
+        font-family: Open Sans;
+        text-transform: capitalize;
+        font-weight: 600;
+
+        text-align: center;
+    }
 }
 
 .add {
@@ -229,6 +251,9 @@ form {
         color: #fff;
     }
 
+    .todo__empty,
+    .inprogress__empty,
+    .done__empty,
     .empty {
         background: rgb(8, 1, 83);
     }
