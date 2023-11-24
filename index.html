@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans&family=Roboto:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <title>drag'n drop</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="modal">
+                <img class="modal_img" src="./img/cross.png" alt="" />
+                <div class="modal_dialog">
+                    <h2>Задание</h2>
+                    <form name="task">
+                        <input
+                            type="text"
+                            id="name"
+                            name="title"
+                            placeholder="Название задания"
+                        />
+                        <input
+                            type="text"
+                            name="description"
+                            placeholder="Описание задания"
+                        />
+                        <select name="status" id="">
+                            <option value="0">go home</option>
+                            <option value="1">В процессе</option>
+                            <option value="2">Готово</option>
+                        </select>
+                        <button>Готово</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="container">
+                <nav class="nav_right">
+                    <ul>
+                        <li class="imgs">
+                            <img src="./img/span.css-snhnyn.png" alt="" />
+                            <img src="./img/pseudo.png" alt="" />
+                        </li>
+                        <li>
+                            Рабочие пространства
+                            <img src="./img/Frame.png" alt="" />
+                        </li>
+                        <li>
+                            Недавние
+                            <img src="./img/Frame.png" alt="" />
+                        </li>
+                        <li>
+                            В избранном
+                            <img src="./img/Frame.png" alt="" />
+                        </li>
+                        <li>
+                            Шаблоны
+                            <img src="./img/Frame.png" alt="" />
+                        </li>
+                        <button class="btn">Create</button>
+                    </ul>
+                </nav>
+                <nav class="nav_left">
+                    <ul>
+                        <input type="search" placeholder="Поиск" id="search" />
+                        <li>
+                            <img src="./img/div.LqGD9MwVXnEbhp.png" alt="" />
+                        </li>
+                        <li>
+                            <img
+                                src="./img/presentation.h2d-4dd78d0a.png"
+                                alt=""
+                            />
+                        </li>
+                        <li>
+                            <img
+                                src="./img/Img - PRODIGY (prodigy133).png"
+                                alt=""
+                            />
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="wrapper">
+                <section class="sec1">
+                    <div class="nav">
+                        <aside>
+                            <div class="profil">
+                                <img src="./img/Link.png" alt="" />
+                                <p>PRODIGY: рабочее пространство</p>
+                                <img
+                                    class="img"
+                                    src="./img/58243262833f693f6101.svg.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <hr />
+                            <ul class="ul_nav">
+                                <li>
+                                    <img src="./img/Frame2.png" alt="" />
+                                    <a href="">Доски</a>
+                                </li>
+                                <li>
+                                    <img src="./img/span.nch.png" alt="" />
+                                    <a href="">Участники</a>
+                                    <img
+                                        class="img_add"
+                                        src="./public/img/Icon_add.png"
+                                        alt=""
+                                    />
+                                </li>
+                                <li>
+                                    <img
+                                        src="./img/span.nch-icon_margin.png"
+                                        alt=""
+                                    />
+                                    <a href="">
+                                        Настройки рабочего пространства</a
+                                    >
+                                </li>
+                            </ul>
+                            <ul class="cls">
+                                <p>Режимы просмотра рабочего прос…</p>
+                                <li>
+                                    <img src="./img/span.png    " alt="" />
+                                    Таблица
+                                </li>
+                                <li>
+                                    <img src="./img/span.nch-icon.png" alt="" />
+                                    Календарь
+                                </li>
+                            </ul>
+                            <ul class="ul_nav black_bords">
+                                <li class="add">
+                                    Мои доски
+                                    <img
+                                        src="./public/img/Icon_add.png"
+                                        alt=""
+                                    />
+                                </li>
+                                <div class="black_bord">
+                                    <div class="text_kub">
+                                        <div class="kub"></div>
+                                        <p>desk</p>
+                                    </div>
+                                </div>
+                            </ul>
+                        </aside>
+                        <div class="premium">
+                            <div class="text">
+                                <img src="./img/Frame3.png" alt="" />
+                                <p>Попробовать Premium бесплатно</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="sec2">
+                    <div class="container_centre">
+                        <div class="header">
+                            <nav class="nav_r">
+                                <ul>
+                                    <li>
+                                        <h3>desk</h3>
+                                    </li>
+                                    <li>
+                                        <img src="./img/Frame6.png" alt="" />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src="./img/span.css-snhnn2.png"
+                                            alt=""
+                                        />
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <img
+                                                src="./img/Frame5.png"
+                                                alt=""
+                                            />По доске
+                                        </button>
+                                        <img src="./img/Frame.png" alt="" />
+                                    </li>
+                                </ul>
+                            </nav>
+                            <nav class="nav_l">
+                                <ul>
+                                    <li>
+                                        <img
+                                            src="./img/span.css-snhnyn45.png"
+                                            alt=""
+                                        />
+                                    </li>
+                                    <li>
+                                        <img src="./img/Vector.png" alt="" />
+                                    </li>
+                                    <li>
+                                        <img
+                                            src="./img/span.nch-icon34.png"
+                                            alt=""
+                                        />
+                                        Фильтры
+                                    </li>
+                                    <li>
+                                        <img
+                                            src="./img/Img - PRODIGY (prodigy133).png"
+                                            alt=""
+                                        />
+                                    </li>
+                                    <li>
+                                        <button>
+                                            <img
+                                                src="./img/Frame009.png"
+                                                alt=""
+                                            />Поделиться
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <img src="./img/Frame4.png" alt="" />
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="backdrop">
+                            <div class="container"></div>
+                        </div>
+                        <div class="emptys">
+                            <div class="empty" data-status="0">
+                                <span>go home</span>
+                            </div>
+                            <div class="empty" data-status="1">
+                                <span>В процессе</span>
+                            </div>
+                            <div class="empty" data-status="2">
+                                <span>Готово</span>
+                            </div>
+                            <div class="add_empty">
+                                <li>
+                                    <img
+                                        src="./public/img/Icon_add.png"
+                                        alt=""
+                                    />Добавьте еще одну колонку
+                                </li>
+                            </div>
+                        </div>
+                        <div class="bucket">
+                            <img
+                                class="img_bucket"
+                                src="./public/img/delete.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <script type="module" src="./main.js"></script>
+        <script type="module" src="./module/form.js"></script>
+    </body>
+</html>
